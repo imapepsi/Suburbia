@@ -12,7 +12,8 @@ using namespace std;
 int main() {
     cout << "----- Suburbia -----" << endl;
 
-    //Effect(EACH_ADJACENT, )
+    Effect* cpEffect = ForEachAdjacent();
+
     Tile communityPark = Tile(CIVIC, "Community Park", 4);
 
 
