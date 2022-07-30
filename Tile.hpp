@@ -16,10 +16,6 @@
 
 enum TileType { RESIDENTIAL, CIVIC, INDUSTRIAL, COMMERICAL, LAKE };
 
-//enum EffectType { ONCE, FOR_EACH_ADJACENT, EACH_OF_YOUR, EVERY, ALL_OTHERS};
-//enum BenefitType { INCOME, REPUTATION, MONEY, POPULATION };
-
-
 
 class Tile {
 private:
@@ -27,18 +23,8 @@ private:
     std::string name;
     int cost;
 
-//    //EFFECTS
-//    struct Effect {
-//        EffectType effectType;
-//        BenefitType benefitType;
-//        int value;
-//    };
-
-//    std::vector<Tile::Effect> effects;
     std::set<Effect*> onceEffects;
     std::set<Effect*> forEachAdjacentEffects;
-
-
 
 public:
     Tile() {}
