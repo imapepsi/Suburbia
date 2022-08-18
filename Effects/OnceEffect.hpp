@@ -14,7 +14,7 @@ public:
     OnceEffect() {}
 
     int applyEffect() {
-
+        return 0;
     }
 };
 

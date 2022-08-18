@@ -9,10 +9,10 @@
 
 class ForEachAdjacentEffect : Effect {
 private:
-    //What tile types ar
+    //What tile types make effect valid
 public:
     int applyEffect() override {
-
+        return 0;
     }
 
 
