@@ -29,6 +29,8 @@ public:
     std::string cityToString();
 
     void addTile(Tile newTile);
+
+    void placeTile();
 };
 
 

@@ -40,5 +40,15 @@ std::string Player::cityToString() {
 }
 
 void Player::addTile(Tile newTile) {
+    /* Add Tile to city as a key */
     city.insert({newTile.getID(), {}});
+}
+
+void Player::placeTile() {
+    /* Add which tiles are adjacent */
+    //TODO: Finish function
+
+    //Ask user where they'd like their new tile next to
+    //Add tiles to set in new tile's key-value pair
+    //Add new tile to the other sets it's now adjacent to
 }
